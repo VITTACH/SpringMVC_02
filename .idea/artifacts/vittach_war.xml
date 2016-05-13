@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vittach:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="vittach-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="vittach:war exploded" />
+    </root>
+  </artifact>
+</component>

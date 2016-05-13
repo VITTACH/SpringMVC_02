@@ -1,0 +1,305 @@
+body
+{
+    font-family:
+        Verdana;
+    background:
+        #404040;
+    min-width:
+        917px;
+}
+
+table{margin:20px auto;}
+
+.correct input[type="submit"]
+{background-position:-130px 0;}
+
+.regi_but input[type="submit"]
+{background-position:-130px 0;}
+
+.vhod_but input[type="submit"]
+{background-position:0 -102px;}
+
+ .correct input[type="submit"]:hover
+{background-position:-130px -32px;}
+
+.vhod_but input[type="submit"]:hover
+    {background-position:0 -134px;}
+
+.regi_but input[type="submit"]:hover
+{background-position:-130px -32px;}
+
+.checkin_but input[type="submit"]
+{background-position:-130px -102px;}
+
+buttons input[type="submit"]
+{
+    position:
+    relative;
+	background:
+	url(../img/sprite.png)
+	no-repeat;
+	height:30px;
+	width:121px;
+    float:right;
+    top:-35px;
+    margin:
+    0 25px 0 0;
+    border:
+        none;
+	cursor:
+	pointer;
+}
+
+uinput input
+{
+    font-family:
+        Arial;
+    font-weight:
+    bolder;
+    margin:
+    0 0 5px 3px;
+    background:
+    #FFFDF9;
+    position:
+    relative;
+    top:8px;
+    color:
+    #7F0000;
+    display:
+    block;
+}
+
+ui_but input[type="submit"]
+{
+    position:
+    relative;
+	background:
+	url(../img/sprite.png)
+	no-repeat;
+	height:
+        30px;
+	width:
+       121px;
+    margin:
+    0 0 5px 0;
+    border:
+        none;
+    display:
+	   block;
+	cursor:
+	pointer;
+    top:8px;
+}
+
+h1 b
+{
+    text-decoration:
+    none;color:
+        #FF6A00;
+    text-shadow:
+    -2px -2px 2px
+    #000000,
+    2px -2px 2px
+    #000000,
+    -2px 2px 2px
+    #000000,
+    2px 2px 2px
+    #000000;
+}
+
+h1 a
+{
+    text-decoration:
+    none;color:
+        #FFFFFF;
+    text-shadow:
+    -2px -2px 2px
+    #000000,
+    2px -2px 2px
+    #000000,
+    -2px 2px 2px
+    #000000,
+    2px 2px 2px
+    #000000;
+}
+
+h1
+{
+    margin:0;
+    background:
+        #007F7F;
+    background:
+    -webkit-linear-gradient(bottom,#404040,#CCCCCC);
+    background:
+       -moz-linear-gradient(bottom,#404040,#CCCCCC);
+    text-align:
+        center;
+    border-radius:
+    20px;
+    border:
+    2px solid
+    black;
+    min-width:
+    917px;
+}
+
+.text-inner
+{
+    font-family:
+        Arial;
+    position:
+    relative;
+    font-weight:
+    bolder;
+    text-shadow:
+    -2px -2px 2px
+    #FF6A00,
+    2px -2px 2px
+    #FF6A00,
+    -2px 2px 2px
+    #FF6A00,
+    2px 2px 2px
+    #FF6A00;
+    text-align:
+    center;
+    font-size:
+        30px;
+    color:
+    #FFFFFF;
+}
+
+.g-recaptcha
+{
+    position:
+    relative;
+    margin:
+    0 auto;
+    width:
+    302px;
+}
+
+.correct
+{
+    position:
+    relative;
+    text-align:
+    center;
+    left:230px;
+    top:5px;
+}
+
+table td
+{
+padding:3px 8px;
+}
+
+rinput input
+{
+    font-family:
+        Arial;
+    font-weight:
+        bolder;
+    color:
+        #FFD800;
+    width:100%;
+    background:
+    #404040;
+}
+
+paragraph
+{
+    position:
+    absolute;
+    padding:
+    0 90px 0;
+    overflow:
+        scroll;
+    overflow-x:
+        hidden;
+    border:
+    4px solid
+    #FF6A00;
+    border-radius:
+    20px;
+    bottom:8px;
+    right: 8px;
+    left:140px;
+    top:58px;
+    min-width:
+        600px;
+    background:#FFD793;
+    background:
+    -webkit-linear-gradient(bottom,#FFD793,#FFFFFF);
+    background:
+       -moz-linear-gradient(bottom,#FFD793,#FFFFFF);
+    display:
+	   block;
+}
+
+border_in
+{
+    position:
+    relative;
+    background:
+    #004A7F;
+    background:
+    -webkit-linear-gradient(bottom,#404040,#CCCCCC);
+    background:
+       -moz-linear-gradient(bottom,#404040,#CCCCCC);
+    box-shadow:
+    0 0 40px;
+    display:
+	   block;
+    border-bottom:
+    4px solid
+    #FF6A00;
+    border-right:
+    4px solid
+    #FF6A00;
+    border-left:
+    4px solid
+    #FF6A00;
+    padding:
+    80px 0 0;
+    margin:
+    0 auto 0;
+    height:
+    380px;
+    width:
+    400px;
+}
+
+.checkin_but input[type="submit"]:hover
+{
+      background-position:-130px -134px;
+}
+
+.contact_but input[type="submit"]:hover
+{
+            background-position:0 -32px;
+}
+
+.checkin_but input[type="submit"]:active
+{
+background-position:-130px -166px;
+}
+
+.contact_but input[type="submit"]:active
+{
+    background-position:0px -64px;
+}
+
+.regi_but input[type="submit"]:active
+{
+background-position:-130px -64px;
+}
+
+.vhod_but input[type="submit"]:active
+{
+    background-position:0 -166px;
+}
+
+.correct input[type="submit"]:active
+{
+background-position:-130px -64px;
+}

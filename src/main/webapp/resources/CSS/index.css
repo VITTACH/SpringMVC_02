@@ -1,0 +1,313 @@
+.mainback
+{
+    height:
+        220px;
+	max-width:
+        1024px;
+border-radius:
+    20px;
+    box-shadow:
+    0 0 25px;
+    background:
+	url(../img/MAIN.png)
+	no-repeat
+        center;
+    margin:
+    0 auto 0;
+    border:
+    4px solid
+    #000000;
+}
+
+body
+{
+    font-family:
+        Verdana;
+    background:
+        #404040;
+    min-width:
+    917px;
+}
+
+.linkfb input[type="submit"]
+{
+background-position:-64px 0;
+}
+
+.linkyo input[type="submit"]
+{
+background-position:-128px 0;
+}
+
+.regi_but input[type="submit"]
+{
+    background-position:-130px 0;
+}
+
+.vhod_but input[type="submit"]
+{
+    background-position:0 -102px;
+}
+
+.checkin_but input[type="submit"]
+{
+background-position:-130px -102px;
+}
+
+.linkvk input[type="submit"]:hover
+{background-position:0 -64px;}
+
+.linkfb input[type="submit"]:hover
+{background-position:-64px -64px;}
+
+.linkyo input[type="submit"]:hover
+{
+background-position:-128px -64px;
+}
+
+.regi_but input[type="submit"]:hover
+{
+background-position:-130px -32px;
+}
+
+.vhod_but input[type="submit"]:hover
+{
+    background-position:0 -134px;
+}
+
+link_but input[type="submit"]
+{
+    position:
+    relative;
+	background:
+	url(../img/LINKS.png)
+	no-repeat;
+	height:64px;
+	width: 64px;
+    float:right;
+    margin:
+    15px 0 0 15px;
+    border:
+        none;
+	cursor:
+	pointer;
+}
+
+buttons input[type="submit"]
+{
+    position:
+    relative;
+	background:
+	url(../img/sprite.png)
+	no-repeat;
+	height:30px;
+	width:121px;
+    float:right;
+    top:-35px;
+    margin:
+    0 25px 0 0;
+    border:
+        none;
+	cursor:
+	pointer;
+}
+
+uinput input
+{
+    font-family:
+        Arial;
+    font-weight:
+    bolder;
+    margin:
+    0 0 5px 3px;
+    background:
+    #FFFDF9;
+    position:
+    relative;
+    top:8px;
+    color:
+    #7F0000;
+    display:
+    block;
+}
+
+ui_but input[type="submit"]
+{
+    position:
+    relative;
+	background:
+	url(../img/sprite.png)
+	no-repeat;
+	height:
+        30px;
+	width:
+       121px;
+    margin:
+    0 0 5px 0;
+    border:
+        none;
+    display:
+	   block;
+	cursor:
+	pointer;
+    top:8px;
+}
+
+h1 b
+{
+    text-decoration:
+    none;color:
+        #FF6A00;
+    text-shadow:
+    -2px -2px 2px
+    #000000,
+    2px -2px 2px
+    #000000,
+    -2px 2px 2px
+    #000000,
+    2px 2px 2px
+    #000000;
+}
+
+h1 a
+{
+    text-decoration:
+    none;color:
+        #FFFFFF;
+    text-shadow:
+    -2px -2px 2px
+    #000000,
+    2px -2px 2px
+    #000000,
+    -2px 2px 2px
+    #000000,
+    2px 2px 2px
+    #000000;
+}
+
+h1
+{
+    margin:0;
+    background:
+        #007F7F;
+    background:
+    -webkit-linear-gradient(bottom,#404040,#CCCCCC);
+    background:
+       -moz-linear-gradient(bottom,#404040,#CCCCCC);
+    text-align:
+        center;
+    border-radius:
+    20px;
+    border:
+    2px solid
+    black;
+    min-width:
+    917px;
+}
+
+.text-inner
+{
+    text-shadow:
+    -2px -2px 2px
+    #000000,
+    2px -2px 2px
+    #000000,
+    -2px 2px 2px
+    #000000,
+    2px 2px 2px
+    #000000;
+    font-family:
+        Arial;
+    max-width:
+        1024px;
+    margin:
+    0 auto 0;
+    position:
+    relative;
+    line-height:
+        30px;
+    font-weight:
+    bolder;
+    text-align:
+    justify;
+    font-size:
+        20px;
+    color:
+    #FFFFFF;
+    padding:
+    30px 0;
+}
+
+textcentr
+{
+    width:1024px;
+    height:509px;
+    margin:
+        auto;
+    position:
+    absolute;
+    bottom:0;
+    right: 0;
+    left:0;
+    top: 0;
+}
+
+paragraph
+{
+    position:
+    absolute;
+    padding:
+    20px 90px;
+    overflow:
+        scroll;
+    overflow-x:
+        hidden;
+    border:
+    4px solid
+    #FF6A00;
+    border-radius:
+    20px;
+    bottom:8px;
+    right: 8px;
+    left:140px;
+    top:58px;
+    min-width:
+        600px;
+    background:#FFD793;
+    background:
+    -webkit-linear-gradient(bottom,#FFD793,#FFFFFF);
+    background:
+       -moz-linear-gradient(bottom,#FFD793,#FFFFFF);
+    display:
+	   block;
+}
+
+.checkin_but input[type="submit"]:hover
+{
+      background-position:-130px -134px;
+}
+
+.contact_but input[type="submit"]:hover
+{
+            background-position:0 -32px;
+}
+
+.checkin_but input[type="submit"]:active
+{
+    background-position:-130px -166px;
+}
+
+.contact_but input[type="submit"]:active
+{
+        background-position:0 -64px;
+}
+
+.regi_but input[type="submit"]:active
+{
+    background-position:-130px -64px;
+}
+
+.vhod_but input[type="submit"]:active
+{
+    background-position:0 -166px;
+}

@@ -27,7 +27,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Новости</a>
-                <a class="navbar-brand" href="#">ВашСчет</a>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-bitcoin"></span>
+                    ВашСчет</a>
             </div>
 
             <div class="collapse navbar-collapse" id="responsive-menu">
@@ -102,7 +104,18 @@
     <div class="container">
         <div class="row">
             <h1>opencode</h1>
-            
+            <a href="#" class="btn btn-danger active">
+                <span class="glyphicon glyphicon-piggy-bank"></span>
+                Кран денег</a>
+            <a href="#" class="btn btn-warning active">
+                <span class="glyphicon glyphicon-send"></span>
+                Вывод денег</a>
+            <a href="#" class="btn btn-success active">
+                <span class="glyphicon glyphicon-briefcase"></span>
+                Рефералы</a>
+            <a href="#" class="btn btn-info active">
+                <span class="glyphicon glyphicon-info-sign"></span>
+                Справка</a>
         </div>
     </div>
 

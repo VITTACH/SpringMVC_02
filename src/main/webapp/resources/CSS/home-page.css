@@ -1,3 +1,33 @@
-.container .row{
-	/*margin-top: 50px;*/
+body
+{
+    font-family:
+        Verdana;
+    background:
+        #404040;
+    min-width:
+    917px;
+}
+
+.down-marquee
+{
+    position: fixed;
+    top:  100%;
+    width:100%;
+    margin:-24px 0px;
+}
+
+.carousel
+{
+	border:4px solid
+    #FF6A00;
+    /*
+    border-radius:20px;
+    */
+    background:#FFD793;
+    background:
+    -webkit-linear-gradient(bottom,#FFD793,#FFFFFF);
+    background:
+       -moz-linear-gradient(bottom,#FFD793,#FFFFFF);
+	position: relative;
+	padding: -4px;
 }

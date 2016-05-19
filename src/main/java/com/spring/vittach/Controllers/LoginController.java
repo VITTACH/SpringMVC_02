@@ -2,6 +2,7 @@ package com.spring.vittach.Controllers;
 
 import com.spring.vittach.d_a_o.UserRepository;
 import com.spring.vittach.objects.User;
+import com.spring.vittach.services.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -12,10 +13,13 @@ import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
+import java.io.*;
 
 @Controller
 @SessionAttributes("user")
 public class LoginController {
+    @Autowired
+    FileService fileService;
     @Autowired
     UserRepository userRepository;
 
@@ -52,18 +56,20 @@ public class LoginController {
 
     //нажатие на логотип сайта в личном кабинете и стартухе
     @RequestMapping(value = "/dex", method = RequestMethod.GET)
-    public ModelAndView index(@ModelAttribute("user") User imodel) {
+    public ModelAndView index(@ModelAttribute("user") User imodel) throws IOException {
         ModelAndView modelandview = new ModelAndView();
         if (imodel.getName() == null || imodel.getPassword() == null)
             modelandview.setViewName("index");
-        else
+        else {
             modelandview.setViewName("page");
+            imodel.setMarquee(fileService.getClasspathResourceAsString("resources/down-marquee.txt"));
+        }
         return modelandview.addObject("user", imodel);
     }
 
     //обработчик исключительных ситтуаций от interceptor'a
     @RequestMapping(value = "/fail", method = RequestMethod.GET)
-    public ModelAndView faile(@ModelAttribute("user") User imodel) {
+    public ModelAndView failed(@ModelAttribute("user") User imodel) {
         imodel.setName(null);
         imodel.setPassword(null);
         return new ModelAndView("failed", "msg", imodel.getMessage());

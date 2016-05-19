@@ -1,9 +1,9 @@
 package com.spring.vittach.objects;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 
 @Entity
 @Table(name = "appuser")
@@ -14,6 +14,7 @@ public class User {
     private long id;
 
     private String name;
+    private String marquee;
     private String message;
     private String password;
     private String input_qiw;
@@ -57,6 +58,10 @@ public class User {
         this.id = id;
     }
 
+    public String getMarquee() {
+        return marquee;
+    }
+
     public String getMessage() {
         return message;
     }
@@ -90,6 +95,11 @@ public class User {
         this.name = name;
     }
 
+    public
+    void setPassword(String password){
+        this.password = password;
+    }
+
     public void setInput_rep(String input_rep) {
         this.input_rep = input_rep;
     }
@@ -110,8 +120,8 @@ public class User {
         this.input_mal = input_mal;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setMarquee(String marquee) {
+        this.marquee = marquee;
     }
 
     public void setMessage(String message) {
